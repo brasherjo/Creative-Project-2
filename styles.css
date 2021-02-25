@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: DarkGrey;
+}
+/* Beggining of header section */
+#header{
+  display: flex;
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+}
+#info{
+  text-align: center;
+}
+#number{
+  text-align: center;
+}
+#results2{
+  display: flex;
+  justify-content: center;
+}
+#results{
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  text-align: center;
+}
+/* Start of Update Player Name Section*/
+#playername{
+  margin:10px;
+}
+/* End of Update Player Name Section */
+/* Start of Update Player Section */
+#player_info{
+  display:flex;
+  flex-direction: column;
+}
+#player{
+  margin:10px;
+}
+/* End of Update Player Section */
+/* Start of Update Team Section */
+#team_info{
+  display:flex;
+  flex-direction: column;
+}
+#team{
+  margin: 10px;
+}
+/* End of Update Team Section */
+/* Start of Update SA Section */
+#stats_info{
+  display: flex;
+  flex-direction: column;
+}
+#stats{
+  margin: 10px;
+}
+/* End of Update SA Sections */
+.footer{
+  border: solid 2px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height: 5%;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.link{
+  list-style-type: none;
+  margin: 3px 0 3px 5px;
+  width: auto;
+  color: black;
+  font-family: sans-serif, "helvetica";
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+}
